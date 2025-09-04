@@ -9,3 +9,9 @@ everyday coding in RTU
 
 - *selection sort* <br>
 <img src = "https://github.com/whattheyeb/coding_in_RTU/blob/main/img/selection-600.gif" width = 300>
+
+---
+9/4 <2일차>
+### 브론즈 23882번 알고리즘 수업 - 선택 정렬 2
+- 문제설명 : 이번 문제는 23881번 문제에서 약간 변형된 버전으로, 특정 교환 횟수 번째 이후의 정렬을 출력하는 문제였다. 
+- 느낀점 : 이제 선택정렬을 구현하는 코드는 비교적 빠르게 작성할 수 있게 되었다. 하지만 for문 안에서 바로 답을 출력하려고 해서 첫번째 시도에서는 실패했었다. 선택정렬을 하는 for문 안에서는 결과를 바로 출력하기보다 flag 사용하거나 배열을 정렬하는 방식을 사용해야겠다.
