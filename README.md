@@ -47,3 +47,10 @@ everyday coding in RTU
 - **느낀점** : 새로운 개념을 배웠다!!
 - **개념설명** : cin.tie(NULL); 과 sync_with_stdio(false); 를 코드 앞에 작성한 후, endl 대신 \n 을 사용하면 된다. 다음 링크에 설명이 잘 되어있으니 참고해라 https://www.acmicpc.net/blog/view/128 
 
+---
+9/6 <4일차>
+### (브론즈 5) 10951번 A + B - 4
+- **문제설명** : 두 정수 A + B를 입력받은 다음, A + B 를 출력한다.
+- **느낀점** : 
+- **개념정리** : EOF(End of File) 설정을 해줘야한다. 키보드 입력으로는 윈도우에서 Ctrl+Z 를 눌러 EOF를 발생시킨다. 그럼 반복문에서 조건을 어떻게 설정해야할까? 바로 그냥 while(cin >> a >> b) 이런식으로 조건식에 cin을 넣으면 된다. 
+
