@@ -2,12 +2,15 @@
 everyday coding in RTU
 
 ---
-정리 템플릿
+<details>
+<summary> 정리 템플릿 </summary>
+
 ### (문제 등급) 문제 번호 문제 이름
 - **문제설명** :
 - **느낀점** :
 - **개념정리** (선택사항) :
 
+</details>
 ---
 <details>
 <summary> 9/3 1일차 </summary>
