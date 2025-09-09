@@ -102,5 +102,12 @@ everyday coding in RTU
 
 </details>
 
+<details>
+<summary> 9/9 <6일차> </summary>
 
+### (실버 5) 2941번 크로아티아 알파벳
+- **문제설명** : 문제가 길어서 이미지로 첨부 <img src = "https://github.com/whattheyeb/coding_in_RTU/blob/main/img/bj2941.png">
+- **느낀점** : 문제는 풀긴했지만 if문남발에다가 복잡하게 작성한 것같아서 챗지피티에게 피드백을 받을 예정이다. 개인적으로 다음 인덱스로 바로 넘어가기위해 for문의 인덱스에 해당하는 i 를 사용한 방법은 마음에 든다.
+
+</details>
 
