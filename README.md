@@ -132,3 +132,12 @@ everyday coding in RTU
 
 </details>
 
+<details>
+<summary> 9/10 <7일차> </summary>
+
+### (브론즈 2) 2675번 문자열 반복
+- **문제설명** : 테스트케이스 개수 N과 각 문자열 S와 반복횟수 R을 입력받는다. 문자열의 각 문자를 R번씩 반복하여 출력한다. 예시 : (입력) 3 ABC (출력) AAABBBCCC
+- **느낀점** : ez
+
+
+</details>
