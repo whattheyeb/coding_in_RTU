@@ -10,7 +10,10 @@ int main(){
     // k층에 n호에는 몇명이 살고있는가를 출력
     int k, n;
 
-    int sum = 0;
+    // 3층 ) 1 4 10 20 ...
+    // 2층 ) 1 3 6 10 ... 
+    // 1층 ) 1 2 3 4 5 ...
+    // 예시를 보면 알 수 있듯이 n층 k호에 사는 사람수 = n층 k - 1호 + n - 1층 k 호이다.
 
     int person[15][15] = {0}; 
     for(int i = 1; i < 15; i++){
@@ -18,17 +21,14 @@ int main(){
     }
 
     for(int i = 1; i < 15; i++){
-        sum = 0;
-        for(int j = 1; j <= 15; j++){
-            sum += person[i - 1][j];
-            person[i][j] = sum;
+        for(int j = 1; j < 15; j++){
+            person[i][j] = person[i][j - 1] + person[i - 1][j];
         }
     }
 
     for(int i = 0; i < T; i++){
         cin >> k;
         cin >> n;
- 
         cout << person[k][n] << '\n';
     }
 }
