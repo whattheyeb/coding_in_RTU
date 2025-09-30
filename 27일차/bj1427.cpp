@@ -11,15 +11,14 @@ bool comp(int a, int b){
 int main(){
     string num;
     cin >> num;
-    int n;
+    
     vector<int> arr(num.size());
     for(int i = 0; i < num.size(); i++){
-        n = num[i] - '0';
-        arr.push_back(n);
+        arr.push_back(num[i]);
     }
     sort(arr.begin(), arr.end(), comp);
     for(int i = 0; i < num.size(); i++){
-        cout << arr[i];
+        cout << arr[i] - 48;
     }
     cout << "\n";
     
