@@ -841,4 +841,8 @@ for(auto it = m.begin(); it != m.end(); ++it){
 }
 ```
 
+### <실버 4> 10828번 스택
+- **문제설명** : push, pop, size, empty, top 스택의 기본 명령어들을 구현하는 프로그램을 작성하시오.
+- **느낀점** : vector를 사용해서 한땀한땀 stack을 구현해보는건 처음이라 어려울거라 생각했는데 의외로 실행도 잘되고 시간초과도 발생하지 않았다. 기본적으로 vector의 push_back이나 pop_back 기능이 stack과 유사하다고 여겨져서 해당 기능을 push 와 pop에서 사용했다. size나 empty 또한 vector의 기본 함수에 있어서 그걸 활용했다. 추가적으로 top 변수를 사용해 top 이 0이면 -1을 출력하도록 했다. 
+
 </details>
