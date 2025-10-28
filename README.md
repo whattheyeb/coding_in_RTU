@@ -846,3 +846,13 @@ for(auto it = m.begin(); it != m.end(); ++it){
 - **느낀점** : vector를 사용해서 한땀한땀 stack을 구현해보는건 처음이라 어려울거라 생각했는데 의외로 실행도 잘되고 시간초과도 발생하지 않았다. 기본적으로 vector의 push_back이나 pop_back 기능이 stack과 유사하다고 여겨져서 해당 기능을 push 와 pop에서 사용했다. size나 empty 또한 vector의 기본 함수에 있어서 그걸 활용했다. 추가적으로 top 변수를 사용해 top 이 0이면 -1을 출력하도록 했다. 
 
 </details>
+
+<details>
+<summary> 10/28 <52일차> </summary>
+
+### <실버 3> 11478번 서로 다른 부분 문자열의 개수
+- **문제설명** : 문자열 S가 주어졌을 때, S의 서로 다른 부분 문자열의 개수를 구하는 프로그램을 작성하시오. 부분 문자열은 S에서 연속된 일부분을 말하며, 길이가 1보다 크거나 같아야 한다. 예를 들어, ababc의 부분 문자열은 a, b, a, b, c, ab, ba, ab, bc, aba, bab, abc, abab, babc, ababc가 있고, 서로 다른것의 개수는 12개이다.
+- **느낀점** : map을 사용하면 중복된 원소를 빨리 찾을 수 있기때문에 map을 사용했고 부분문자열을 만들때는 string 라이브러리의 substr() 함수를 사용했다. 
+
+
+</details>
