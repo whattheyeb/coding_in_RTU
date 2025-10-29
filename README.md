@@ -856,3 +856,12 @@ for(auto it = m.begin(); it != m.end(); ++it){
 
 
 </details>
+
+<details>
+<summary> 10/29 <53일차> </summary>
+
+### <실버 4> 10845번 큐
+- **문제설명** : 정수를 저장하는 큐를 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오. (push, pop, size, empty, front, back)
+- **느낀점** : 스택과 비슷한 방식으로 구현했다. 다만 이번에는 벡터의 함수 중 front, back, erase 를 활용하여 문제를 해결했다. erase는 원하는 벡터의 원소를 삭제하고, 벡터의 사이즈도 자동으로 줄여준다. v.erase(v.begin()) 이런식으로 활용했다. 
+
+</details>
