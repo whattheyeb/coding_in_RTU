@@ -867,7 +867,7 @@ for(auto it = m.begin(); it != m.end(); ++it){
 </details>
 
 <details>
-<summary> 10/29 <53일차> </summary>
+<summary> 10/30 <54일차> </summary>
 
 ### <실버 4> 11866번 요세푸스 문제 0 <다시 풀기>
 - **문제설명** : 요세푸스 문제는 다음과 같다.
