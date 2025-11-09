@@ -977,7 +977,7 @@ empty: S를 공집합으로 바꾼다.
 </details>
 
 <details>
-<summary> 11/7 <62일차> </summary>
+<summary> 11/8 <63일차> </summary>
 
 ### <실버 4> 18258번 큐 2
 - **문제설명** : 큐의 명령 push, pop, size, empty, front, back 을 구현하는 프로그램을 작성하시오.
